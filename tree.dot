@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Age <= 41.5\nentropy = 1.0\nsamples = 7920\nvalue = [6312.0, 6303.36]\nclass = Did not churn", fillcolor="#ffffff"] ;
+1 [label="Surname_enc <= 0.2\nentropy = 0.91\nsamples = 5388\nvalue = [4796.0, 2320.64]\nclass = Did not churn", fillcolor="#f2be99"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Surname_enc <= 0.2\nentropy = 0.98\nsamples = 2555\nvalue = [2173.0, 1497.44]\nclass = Did not churn", fillcolor="#f7d8c1"] ;
+1 -> 2 ;
+3 [label="entropy = 0.93\nsamples = 2470\nvalue = [2173.0, 1164.24]\nclass = Did not churn", fillcolor="#f3c5a3"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 85\nvalue = [0.0, 333.2]\nclass = Churned", fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label="Surname_enc <= 0.21\nentropy = 0.79\nsamples = 2833\nvalue = [2623.0, 823.2]\nclass = Did not churn", fillcolor="#eda977"] ;
+1 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 856\nvalue = [856, 0]\nclass = Did not churn", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="entropy = 0.9\nsamples = 1977\nvalue = [1767.0, 823.2]\nclass = Did not churn", fillcolor="#f1bc95"] ;
+5 -> 7 ;
+8 [label="IsActiveMember <= 0.5\nentropy = 0.85\nsamples = 2532\nvalue = [1516.0, 3982.72]\nclass = Churned", fillcolor="#84c2ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Age <= 47.5\nentropy = 0.63\nsamples = 1148\nvalue = [491.0, 2575.44]\nclass = Churned", fillcolor="#5fb0ea"] ;
+8 -> 9 ;
+10 [label="entropy = 0.85\nsamples = 635\nvalue = [378.0, 1007.44]\nclass = Churned", fillcolor="#83c2ef"] ;
+9 -> 10 ;
+11 [label="entropy = 0.36\nsamples = 513\nvalue = [113.0, 1568.0]\nclass = Churned", fillcolor="#47a4e7"] ;
+9 -> 11 ;
+12 [label="Age <= 65.5\nentropy = 0.98\nsamples = 1384\nvalue = [1025.0, 1407.28]\nclass = Churned", fillcolor="#c9e4f8"] ;
+8 -> 12 ;
+13 [label="entropy = 0.96\nsamples = 1197\nvalue = [847.0, 1372.0]\nclass = Churned", fillcolor="#b3daf5"] ;
+12 -> 13 ;
+14 [label="entropy = 0.65\nsamples = 187\nvalue = [178.0, 35.28]\nclass = Did not churn", fillcolor="#ea9a60"] ;
+12 -> 14 ;
+}
