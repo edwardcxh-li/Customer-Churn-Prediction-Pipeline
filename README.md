@@ -38,4 +38,4 @@ I performed some basic EDAs over the dataset. Here are some highlight:
 - XGBoost
 - Naive Bayes (Gaussian/Multinomial)
 - kNN\
-**Remining steps can be find in the included jupyter notebook**
+## Remining steps can be find in the included jupyter notebook
