@@ -27,7 +27,7 @@ I performed some basic EDAs over the dataset. Here are some highlight:
   - Drop the row number
   - Drop CustomerID, because each row points to a unique customer
 
-## Question about the data:
+## Questions about the data:
 1. No date information
 2. How frequently are customer features updated?
 3. Some customers who have exited still have balance in their account, or a non-zero NumOfProducts. Does this mean they have churned only from a specific product and not the entire bank?
