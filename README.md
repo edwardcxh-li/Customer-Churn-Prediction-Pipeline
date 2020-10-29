@@ -2,7 +2,7 @@
 ## Problem we are facing:
 A bank has been observing a lot of customers closing their accounts or switching to competitor banks over the past couple of quarters. As such, this has caused a huge dent in the quarterly revenues and might drastically affect annual revenues for the ongoing financial year, causing stocks to plunge. 
 ## Objective:
-Build a model to predict the customers who are going to churn in the near future, and automate this process into a pipeline 
+Building a model to predict the customers who are going to churn in the near future, and automate this process into a pipeline formate for faster usage.
 ## Business metrics:
 - Churn rate (month-on-month, weekly/quarterly)
 - Trend of average number of products per customer
