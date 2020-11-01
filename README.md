@@ -37,5 +37,5 @@ I performed some basic EDAs over the dataset. Here are some highlight:
 - Light Gardient Bossted Machine
 - XGBoost
 - Naive Bayes (Gaussian/Multinomial)
-- kNN\
+- kNN
 ## Remining steps can be find in the included jupyter notebook
